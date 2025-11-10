@@ -14,7 +14,7 @@ export const setupSwagger = (app: Express) => {
       },
       servers: [
         {
-          url: "http://localhost:3000", // change when deployed
+          url: "https://barcode-api-sdc2.onrender.com", // change when deployed
         },
       ],
     },
